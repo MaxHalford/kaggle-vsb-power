@@ -1,6 +1,6 @@
 # Kaggle VSB power line fault detection
 
-My solution is very standard and consists in manually extracting features before feeding them to LightGBM. This worked quite well at first and I managed to reach the top 10 of the competition. However RNNs seem to be the right way to go, but I'm not very interested in deep learning. Usually I don't upload Kaggle solutions that didn't do well, but I'm making an exception for this one as I'm quite satisfied with the feature extraction pipeline I put in place. If you want to run the code make sure you are using Python 3 and have installed the dependencies listed in the `requirements.txt` file.
+This is my solution to the [VSB Power Line Fault Detection](https://www.kaggle.com/competitions/vsb-power-line-fault-detection/overview) competition. My solution is very standard and consists in manually extracting features before feeding them to LightGBM. This worked quite well at first and I managed to reach the top 10 of the competition. However RNNs seem to be the right way to go, but I'm not very interested in deep learning. Usually I don't upload Kaggle solutions that didn't do well, but I'm making an exception for this one as I'm quite satisfied with the feature extraction pipeline I put in place. If you want to run the code make sure you are using Python 3 and have installed the dependencies listed in the `requirements.txt` file.
 
 ## Splitting the signals
 
